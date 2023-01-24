@@ -1,0 +1,738 @@
+
+                                                  /* --------------------GENERAL------------------- */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url("../images/CVBg4.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#body {
+    padding-top: 60px;
+  }
+
+@media (min-width:992px) {
+#body {
+    padding-top: 0;
+ }
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    position: relative;
+    padding-bottom: 80px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 992px) {
+.container {
+    min-height: 680px;
+ }
+}
+
+
+
+
+.color1{
+    color: rgb(156, 152, 152);
+}
+
+.hr1 {
+    border: none;
+    height: 2px;
+    width: 100%;
+    background: url(../images/hr1.png)  no-repeat center center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+.hr2 {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background: url(../images/hr1.png) no-repeat center center;
+    margin-bottom: 25px;
+    opacity: 2;
+}
+
+                                /* -----------------------------MENU / NAV------------------------ */
+.main-menu {
+    width: 15%;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    padding-right: 10px;
+    margin-top: 46px;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    text-decoration: none;
+}
+
+
+@media (min-width: 992px) {
+.main-menu {
+    display: block;
+ }
+}
+
+@media (min-width: 1400px) {
+.main-menu {
+    margin-top: 186px;
+ }
+}
+  
+@media(max-width: 1700px) {
+.main-menu {
+    left: 15%;
+ }
+}
+
+@media(max-width: 991px) {
+    .main-menu {
+        display: none;
+    }
+}
+
+.main-menu-list {
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu-list li {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+
+
+.main-menu-list a:active, 
+.main-menu-list a:visited {
+    text-decoration: none;
+}
+
+.main-menu-list a {
+    display: block;
+    background: grey;
+    padding: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.main-menu-list a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: black;
+    z-index: -1;
+}
+
+.main-menu-list a:hover {
+    color: #ffffff;
+    border: 0px solid transparent!important;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.main-menu-list a:hover:before {
+    width: 100%;
+}
+
+
+
+
+                                                /* -------------COLLAPSIBLE MENU/NAV---------------- */
+
+
+
+.navbar {
+    display: none;
+}
+
+@media (max-width: 991px) {
+.navbar {
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    opacity: 0.75;
+    display: block; 
+    padding: 0;   
+    }
+.navbar a {
+    color: #f4eeee;
+    opacity: 1;
+    margin: 5px;
+        
+
+    }
+}
+
+.navbar-toggler{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 5px;
+    display: block;
+    box-shadow: none;
+    
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+                              /* -------------------SECTION-ΜΑΙΝ CARD BODY HOME----------------------- */
+.section-home {
+    z-index: 88;
+    opacity: 1;
+  }
+
+
+  @media (min-width:992px) {
+    .section-page {
+          z-index: 11;
+          opacity: 0;
+          
+     }
+    }
+
+                                /* ------------------------SECTION- ΜΑΙΝ CARD BODY------------------- */
+.section-cardbody {
+    width: 99%;
+    margin: 0 auto;
+    /* overflow-y: scroll; */
+    background: url('../images/bg-cardbody.png') repeat-x right top #3b3939;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-top: 6px solid #111;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+    box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+    border-bottom: 15px solid #111;
+}
+
+@media (min-width: 992px) {
+.section-cardbody {
+    position: absolute;
+    margin-top: 40px;
+    left: 30%;
+    height: 570px;
+    width: 40%;
+    padding: 45px;
+    padding-bottom: 20px;
+ }
+}
+
+@media (min-width: 1400px){
+.section-cardbody {
+    margin-top: 180px;
+ }
+}
+
+
+/* @media (max-width: 1700px) {
+.section-cardbody {
+    left: 36.5%;
+ }
+} */
+
+@media (min-width: 992px) {
+    .section-cardbody {
+        padding: 20px;
+ }
+}
+/* -----------ΜΑΙΝ CARD PROFILE PIC---------- */
+.card-profile-pic {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.card-profile-pic img {
+    width: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    border: 6px solid #ddd;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+
+
+/* -----ΜΑΙΝ CARD PROFILE DESCRIPTION----- */
+.card-profile-description {
+    text-align: center;
+}
+
+
+.profile-title {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 36px;
+    letter-spacing: -2px;
+    margin-bottom: 8px;
+    color: black;
+}
+
+@media(max-width: 1400px) {
+    .profile-title {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 0;
+        font-size: 36px;
+        letter-spacing: -2px;
+        margin-bottom: 8px;
+        color: black;
+ }
+}
+
+.profile-subtitle {
+    text-align: center;
+    margin-top: 0;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+
+
+
+.card-profile-description-text {
+    padding: 10px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.card-profile-description-text p {
+    font-size: 13px;
+    opacity: 0.85;
+    color: #f1ecec81;
+}
+
+
+.card-profile-description-feature-item {
+    background: url("../images/bg-email.png") repeat center center;
+    background-color: rgba(0, 0, 0, 0.842);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.card-profile-description-feature-item p {
+    margin-bottom: 3px;
+    color: #fff;
+    font-size: 12px;
+
+}
+  /* -------MAIN CARD FOOTER-------- */
+
+
+.footer-social-icons {
+    text-align: center;
+}
+
+.footer-social-icons a {
+   color: #ffffff; 
+   background: #333333;
+   display: inline-block;
+   width: 30px;
+   height: 30px;
+   text-align: center;
+   font-size: 14px;
+   line-height: 30px;
+   border-radius: 5px;
+   margin: 5px;
+}
+.footer-social-icons a:hover {
+    color: #ffffff;
+    background: black;
+}
+
+
+                                      /* -----------------RESUME--------------------- */
+
+
+/* -----BUTTONS------ */
+.resume-button {
+    padding-bottom: 11px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+
+}
+
+.resume-button a {
+    font-size: 10px;
+    top: 10px;
+    color: #fff;
+
+}
+
+.btn-download {
+    
+    height: 33px;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: black!important;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border: 0px solid transparent!important;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-download:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: rgb(177, 169, 169);
+    z-index: -1;
+}
+
+.btn-download:hover {
+    color: #fff;
+    border: 0px solid;
+}
+
+.btn-download:hover:before {
+    width: 100%;
+}
+
+
+  /* ---RESUME-TITLE--- */
+
+.resume-title {
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    
+    
+}
+
+.resume-title2 {
+    font-weight: bold;
+    color: rgb(177, 169, 169);
+    font-size: 20px;
+    line-height: 25px;
+    padding: 5px 0 5px 0;   
+}
+
+.resume-item {
+    padding: 15px;
+    border: 3px double black;
+    margin-bottom: 25px;
+}
+
+.resume-item-title1 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    color: black;
+    
+}
+.graduation-institute {
+    font-size: 11px;
+    font-style: italic;
+    color: rgb(177, 169, 169);
+    border-bottom: 0.5px solid black;
+    padding-bottom: 5px;
+}
+
+.graduation-description {
+    font-size: 15px;
+    color: #f1ecec81;
+}
+
+.work-experience {
+    font-weight: bold;
+    color: rgb(177, 169, 169);
+    font-size: 20px;
+    line-height: 25px;
+    padding: 5px 0 5px 0;  
+}
+
+#page-resume {
+    overflow-y: scroll;
+}
+
+                                             /* -------------------SKILLS---------------- */
+
+/* .section-skills {
+   
+} */
+
+.section-skills-title {
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+
+.skills-item-title {
+    font-size: 23px;
+    padding-bottom: 5px;
+    color: black;
+    text-align: center;
+
+}
+
+.skills-list {
+    list-style: none;
+}
+
+.skillbar {
+    position: relative;
+    right: 32px;
+}
+.photoshop-title {
+    font-size: 18px;
+    color: black;
+    
+}
+
+                                            /* ---------------------CONTACT--------------------------- */
+
+
+#page-contact {
+    overflow-y: scroll;
+}
+
+.contact-title {
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    line-height: 1;
+}
+
+/* ---------MAP--------- */
+
+
+
+.google-map {
+    position: relative;
+    padding-top: 10px;
+    height: 350px;
+}
+
+.gmap-canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    padding-bottom: 15px;
+}
+
+#gmap-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.contact-info {
+    position: relative;
+}
+
+.contact-info p {
+    font-size: 15px;
+    color: black;
+}
+
+.contact-subtitle {
+    font-size: 15px;
+    color: black;
+    border-bottom: 1px  dotted;
+    padding-bottom: 5px;
+}
+
+.contact-subtitleMsg {
+    font-size: 15px;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+/* ---------FORM------------ */
+
+.form-field {
+    margin-bottom: 9px;
+}
+
+.form-control {
+    color: white;
+    border-radius: 0;
+    background: transparent;
+    border: 1px dotted black;
+}
+
+.text-msg {
+    border: 1px dotted black;
+    margin: 0;
+}
+
+.form-send {
+ border: 0;
+ text-transform: uppercase;
+ width: 100%;
+
+}
+
+.btn-send {
+    background: black!important;
+    border-radius: 0;
+    color: white;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ /* -----------------CLASSES INCORPORATED WITH JS--------------------- */
+
+.section-page-active {
+    opacity: 1;
+    z-index: 22;
+    left: 55%;
+    visibility: visible;
+    transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+
+@media (min-width: 992px) {
+    .section-page-active {
+      margin-top: 40px;
+      margin-left: 10px;
+ }
+}
+
+@media (min-width: 1400px) {
+    .section-page-active {
+      margin-top: 180px;
+ }
+}
+
+.main-menu-pgactive {
+    left: 0%;
+}
+
+.main-menu-list a.menuActive {
+    text-decoration: none;
+    background: black ;
+    padding-left: 15px;
+}
+
+@media (max-width: 1400px){
+    .section-cardbody-pgactive {
+        left: 14.5%;
+ }
+}
+
+@media (min-width: 1400px) {
+    .section-cardbody-pgactive {
+        left: 15%;
+}
+}
+
+.profileActive {
+    opacity: 1!important;
+}
+
+
+
+
+
+
+

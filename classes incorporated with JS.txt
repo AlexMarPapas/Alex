@@ -1,0 +1,15 @@
+Classes that they are incorporated with JS after specific actions from the users.
+
+.section-page-active (class that being applied in the Cards (resume , skills , portofolio etc)
+when the user click on any of them so we know which card is active and displaying and take a
+specific style.)
+
+.main-menu-pgactive (class that being applied in the main-menu when the user is clicking 
+anywhere in the menu BUT Home)
+
+.section-vcardbody-pgactive (class that being applied only in the first Card , so when the user
+is viewing any of the other cards the first card stays active and displayed on the left)
+
+.menuActive (class that being applied in every menu section that is active.For example
+if the user is diplaying any section(portfolio,skills etc) then the button for this section stays
+ACTIVE.) 

@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    /* background-color: black; */
     background: url("../images/CVBg4.jpg") no-repeat center center fixed;
     background-size: cover;
 }
@@ -123,7 +124,7 @@ a {
 
 .main-menu-list a {
     display: block;
-    background: grey;
+    background: #635050;
     padding: 10px;
     color: #ffffff;
     text-transform: uppercase;
@@ -238,7 +239,7 @@ a {
     width: 99%;
     margin: 0 auto;
     /* overflow-y: scroll; */
-    background: url('../images/bg-cardbody.png') repeat-x right top #370505;
+    background: url('../images/bg-cardbody.png') repeat-x right top #635050;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 15px;

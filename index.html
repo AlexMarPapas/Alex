@@ -251,13 +251,55 @@
                     <ul class="skills-list">
                         <li>
                             <div class="skillbar">
-                                <h1 class="photoshop-title">Adobe Photoshop</h1>
+                                <h1 class="design-title">Adobe Photoshop</h1>
+                                <div class="bar1"></div>
                             </div>
                         </li>
-                        <li></li>
-                        <li></li>
+                        <li>
+                            <div class="skillbar">
+                                <h1 class="design-title">Adobe Illustrator</h1>
+                                <div class="bar2"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skillbar">
+                                <h1 class="design-title">Figma</h1>
+                                <div class="bar3"></div>
+                            </div>
+                        </li>
                     </ul>
 
+                    <div class="skills-item">
+                        <h3 class="skills-item-title"><i class="fa-solid fa-code"></i> Development Skills</h3>
+                        <hr class="hr2">
+                    </div>
+
+                    <ul class="skills-list">
+                        <li>
+                            <div class="skillbar">
+                                <h1 class="design-title">HTML</h1>
+                                <div class="bar4"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skillbar">
+                                <h1 class="design-title">CSS</h1>
+                                <div class="bar4"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skillbar">
+                                <h1 class="design-title">JavaScript</h1>
+                                <div class="bar5"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skillbar">
+                                <h1 class="design-title">Node.js / Express</h1>
+                                <div class="bar6"></div>
+                            </div>
+                        </li>
+                    </ul>
 
 
 
@@ -304,8 +346,9 @@
                         <h4 class="contact-subtitle"><i class="fa-solid fa-phone"></i> Phone</h4>
                         <p>+30 6942593917</p>
 
-                        <h4 class="contact-subtitle"><a href="www.google.com"><i class="fa-solid fa-envelope"></i></a> E-mail</h4>
+                        <a href="www.google.com"><h4 class="contact-subtitle"><i class="fa-solid fa-envelope"></i> E-mail</h4></a>
                         <p>alexandermarios.papas@gmail.com</p>
+                       
                     </div>
 
                     <h4 class="contact-subtitleMsg"><i class="fa-solid fa-paper-plane"></i> Send Me a Message</h4>
@@ -314,27 +357,28 @@
                     <form action="https://formsubmit.co/alexapapadop@gmail.com" method="POST" id="contact-form" class="form">
 
                         <div class="form-field">
-                            <input class="form-control required" id="name" name="user_name" placeholder="Name"
-                                type="text" required>
+                            <label for="user-name">Name</label>
+                            <input class="form-control required" id="name" name="user-name"type="text" required>
                         </div>
 
                         <div class="form-field">
-                            <input class="form-control required" id="email" name="user_email" placeholder="Email"
-                                type="email" required>
+                            <label for="user-email">Email</label>
+                            <input class="form-control required" id="email" name="user-email" type="email" required>
+                            
                         </div>
 
                         <div class="form-field">
-                            <input class="form-control required" id="subject" name="user_subject" placeholder="Subject"
-                                type="text" required>
+                            <label for="user-subject">Subject</label>
+                            <input class="form-control required" id="subject" name="user-subject"  type="text" required>
                         </div>
 
                         <div class="form-field">
-                            <textarea class="form-control text-msg required" id="message" name="user_msg"
-                                placeholder="Message" rows="5" required></textarea>
+                            <label for="user-msg">Message</label>
+                            <textarea class="form-control text-msg required" id="message" name="user_msg" rows="5" required></textarea>
                         </div>
 
                         <div class="form-field">
-                            <input type="submit" name="email_btn" class="btn btn-send form-send" value="Send!">
+                            <input type="submit" name="email-btn" class="btn btn-send form-send" value="Send!">
                         </div>
                     </form>
 
@@ -358,6 +402,8 @@
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="JS/main.js"></script>
+    
+    
 </body>
 
 </html>

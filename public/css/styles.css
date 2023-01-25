@@ -537,7 +537,7 @@ a {
 .section-skills-title {
     font-weight: bold;
     color: black;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     text-align: center;
 }
 
@@ -545,9 +545,9 @@ a {
 
 .skills-item-title {
     font-size: 23px;
-    padding-bottom: 5px;
     color: black;
     text-align: center;
+    padding-top: 20px;
 
 }
 
@@ -559,19 +559,21 @@ a {
 .skillbar {
     position: relative;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
     
 }
 .design-title {
-    font-size: 20px;
+    font-size: 18px;
     color: black;
+    padding-top: 5px;
     padding-bottom: 5px;
     
 }
 
 .bar1 {
     position: relative;
-    width: 60%;
+    width: 85%;
     background: linear-gradient(
         to right,
         black 0%,
@@ -579,12 +581,14 @@ a {
         rgb(187, 187, 187) 25%,
         rgb(187, 187, 187) 100%
     );
-    height: 20px;  
+    height: 15px;  
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .bar2 {
     position: relative;
-    width: 60%;
+    width: 85%;
     background: linear-gradient(
         to right,
         black 0%,
@@ -592,12 +596,14 @@ a {
         rgb(187, 187, 187) 20%,
         rgb(187, 187, 187) 100%
     );
-    height: 20px;
+    height: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .bar3 {
     position: relative;
-    width: 60%;
+    width: 85%;
     background: linear-gradient(
         to right,
         black 0%,
@@ -605,12 +611,14 @@ a {
         rgb(187, 187, 187) 20%,
         rgb(187, 187, 187) 100%
     );
-    height: 20px;
+    height: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .bar4 {
     position: relative;
-    width: 60%;
+    width: 85%;
     background: linear-gradient(
         to right,
         black 0%,
@@ -618,12 +626,14 @@ a {
         rgb(187, 187, 187) 70%,
         rgb(187, 187, 187) 100%
     );
-    height: 20px;
+    height: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .bar5 {
     position: relative;
-    width: 60%;
+    width: 85%;
     background: linear-gradient(
         to right,
         black 0%,
@@ -631,12 +641,14 @@ a {
         rgb(187, 187, 187) 30%,
         rgb(187, 187, 187) 100%
     );
-    height: 20px;
+    height: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .bar6 {
     position: relative;
-    width: 60%;
+    width: 85%;
     background: linear-gradient(
         to right,
         black 0%,
@@ -644,8 +656,56 @@ a {
         rgb(187, 187, 187) 20%,
         rgb(187, 187, 187) 100%
     );
-    height: 20px;
+    height: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
+
+.bar7 {
+    position: relative;
+    width: 85%;
+    background: linear-gradient(
+        to right,
+        black 0%,
+        black 90%,
+        rgb(187, 187, 187) 90%,
+        rgb(187, 187, 187) 100%
+    );
+    height: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.bar8{
+    position: relative;
+    width: 85%;
+    background: linear-gradient(
+        to right,
+        black 0%,
+        black 80%,
+        rgb(187, 187, 187) 80%,
+        rgb(187, 187, 187) 100%
+    );
+    height: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.bar9{
+    position: relative;
+    width: 85%;
+    background: linear-gradient(
+        to right,
+        black 0%,
+        black 75%,
+        rgb(187, 187, 187) 75%,
+        rgb(187, 187, 187) 100%
+    );
+    height: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
 
 
 

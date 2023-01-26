@@ -580,9 +580,9 @@ a {
     background: black;
     border-radius: 6px;
     box-shadow: inset 0 0.5px 0px white, 0 1px rgba(227, 216, 216, 0.08);
-    animation: progressAnimationStrike 10s;
-   
+    animation: progressAnimationStrike 6s;
 }
+
 @keyframes progressAnimationStrike {
     from { width: 0 }
     to   { width: 85% }

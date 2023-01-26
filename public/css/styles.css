@@ -807,8 +807,11 @@ a {
 }
 
 
-
-
+@media(max-width: 992px) {
+    .animated{
+        animation-play-state: running;
+ }
+}
 
 
                                        /* ---------------------CONTACT--------------------------- */

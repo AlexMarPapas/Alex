@@ -3,6 +3,8 @@ var linkHome = 0; //2 states for linkHome: home is 0 and any other
 var linkPage = ""; //string will get the value of the specific button
 //from the menulist that got clicked.
 
+
+
 function pageOn() {
   $("#main-menu").addClass("main-menu-pgactive");
   $("#section-home").addClass("section-cardbody-pgactive");
@@ -18,19 +20,7 @@ function pageOff() {
   linkHome = 0;
 }
 
-$(function () {
-  $(".animatedPage").click(function () {
-    $(
-      " .bar-parent1, .bar1, .bar-parent2, .bar2, .bar-parent3, .bar3, .bar-parent4, .bar4, .bar-parent5, .bar5, .bar-parent6, .bar6, .bar-parent7, .bar7"
-    ).css({ animation: "null" });
 
-    setTimeout(function () {
-      $(
-        ".bar-parent1, .bar1, .bar-parent2, .bar2, .bar-parent3, .bar3, .bar-parent4, .bar4, .bar-parent5, .bar5, .bar-parent6, .bar6, .bar-parent7, .bar7"
-      ).css({ animation: "" });
-    }, 10);
-  });
-});
 
 $(".link-page").on("click", function (event) {
   event.preventDefault();
@@ -42,11 +32,30 @@ $(".link-page").on("click", function (event) {
   pageOn();
 });
 
+
 $(".animatedPage").on("click", function (event) {
   event.preventDefault();
   $(".animated").addClass("activated");
-  pageOn();
+  
 });
+
+
+
+
+$(function () {
+  
+    $(".animatedPage, .navAnim").click(function () {
+      $(".bar-parent1, .bar1, .bar-parent2, .bar2, .bar-parent3, .bar3, .bar-parent4, .bar4, .bar-parent5, .bar5, .bar-parent6, .bar6, .bar-parent7, .bar7"
+      ).css({ animation: "null" });
+  
+      setTimeout(function () {
+        $(".bar-parent1, .bar1, .bar-parent2, .bar2, .bar-parent3, .bar3, .bar-parent4, .bar4, .bar-parent5, .bar5, .bar-parent6, .bar6, .bar-parent7, .bar7"
+        ).css({ animation: "" });
+      }, 10);
+    });
+});
+
+
 
 $(".link-home").on("click", function (event) {
   event.preventDefault();
@@ -58,7 +67,7 @@ $(".link-home").on("click", function (event) {
     $(this).addClass("menuActive");
   }
   pageOff();
-  animatedPageOff();
+
 });
 
 // document.querySelector("#page-skills").addEventListener("click", () => {

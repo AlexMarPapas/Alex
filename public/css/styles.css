@@ -562,6 +562,7 @@ a {
     width: 100%;
     padding-bottom: 10px;
     padding-left: 30px;
+
     
 }
 .design-title {
@@ -572,140 +573,147 @@ a {
     
 }
 
-.bar1 {
-    position: relative;
+
+.bar-parent {
     width: 85%;
-    background: linear-gradient(
-        to right,
-        black 0%,
-        black 25%,
-        rgb(187, 187, 187) 25%,
-        rgb(187, 187, 187) 100%
-    );
+    padding: 6px;
+    background: black;
+    border-radius: 6px;
+    box-shadow: inset 0 0.5px 0px white, 0 1px rgba(227, 216, 216, 0.08);
+   
+}
+
+.bar1 {
     height: 15px;  
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 4px;
+}
+
+.bar1{
+    background-color: rgb(180, 82, 7); 
+    width: 85%; 
+    animation: progressAnimationStrike1 6s;
+}
+
+@keyframes progressAnimationStrike1 {
+    0% { width: 0%; background-color: #FCBC51; }
+    100%  { width: 85%; background-color: rgb(180, 82, 7); }
+}
+
+.bar2{
+    height: 15px;  
+    border-radius: 4px;
 }
 
 .bar2 {
-    position: relative;
-    width: 85%;
-    background: linear-gradient(
-        to right,
-        black 0%,
-        black 20%,
-        rgb(187, 187, 187) 20%,
-        rgb(187, 187, 187) 100%
-    );
-    height: 15px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    background-color: #FCBC51; 
+    width: 25%; 
+    animation: progressAnimationStrike2 6s;
+}
+
+@keyframes progressAnimationStrike2 {
+    from { width: 0 }
+    to   { width: 25% }
 }
 
 .bar3 {
-    position: relative;
-    width: 85%;
-    background: linear-gradient(
-        to right,
-        black 0%,
-        black 20%,
-        rgb(187, 187, 187) 20%,
-        rgb(187, 187, 187) 100%
-    );
     height: 15px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 4px;
+}
+
+.bar3 {
+    background-color: #FCBC51; 
+    width: 20%; 
+    animation: progressAnimationStrike3 6s;
+}
+
+@keyframes progressAnimationStrike3 {
+    from { width: 0 }
+    to   { width: 20% }
 }
 
 .bar4 {
-    position: relative;
-    width: 85%;
-    background: linear-gradient(
-        to right,
-        black 0%,
-        black 70%,
-        rgb(187, 187, 187) 70%,
-        rgb(187, 187, 187) 100%
-    );
     height: 15px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 4px;
+}
+
+.bar4{
+    background-color: rgb(180, 82, 7); 
+    width: 82%; 
+    animation: progressAnimationStrike4 6s;
+}
+
+@keyframes progressAnimationStrike4 {
+    0% { width: 0%; background-color: #FCBC51; }
+    100%  { width: 82%; background-color: rgb(180, 82, 7); }
 }
 
 .bar5 {
-    position: relative;
-    width: 85%;
-    background: linear-gradient(
-        to right,
-        black 0%,
-        black 30%,
-        rgb(187, 187, 187) 30%,
-        rgb(187, 187, 187) 100%
-    );
     height: 15px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 4px;
+}
+
+.bar5 {
+    background-color: rgb(180, 82, 7); 
+    width: 75%; 
+    animation: progressAnimationStrike5 6s;
+}
+
+@keyframes progressAnimationStrike5 {
+    0% { width: 0%; background-color: #FCBC51; }
+    100%  { width: 75%; background-color: rgb(180, 82, 7); }
+}
+
+.bar6{
+    height: 15px;
+    border-radius: 4px;
 }
 
 .bar6 {
-    position: relative;
-    width: 85%;
-    background: linear-gradient(
-        to right,
-        black 0%,
-        black 20%,
-        rgb(187, 187, 187) 20%,
-        rgb(187, 187, 187) 100%
-    );
+    background-color: #FCBC51; 
+    width: 70%; 
+    animation: progressAnimationStrike6 6s;
+}
+
+@keyframes progressAnimationStrike6 {
+    from { width: 0 }
+    to   { width: 70% }
+}
+
+.bar6 {
     height: 15px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 4px; 
+}
+
+.bar6 {
+    background-color: #FCBC51; 
+    width: 25%; 
+    animation: progressAnimationStrike7 6s;
+}
+
+@keyframes progressAnimationStrike7 {
+    from { width: 0 }
+    to   { width: 25% }
 }
 
 .bar7 {
-    position: relative;
-    width: 85%;
-    background: linear-gradient(
-        to right,
-        black 0%,
-        black 90%,
-        rgb(187, 187, 187) 90%,
-        rgb(187, 187, 187) 100%
-    );
     height: 15px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 4px;
+    transition: 0.6 linear;
+    transition-property: width, background-color; 
 }
 
-.bar8{
-    position: relative;
-    width: 85%;
-    background: linear-gradient(
-        to right,
-        black 0%,
-        black 80%,
-        rgb(187, 187, 187) 80%,
-        rgb(187, 187, 187) 100%
-    );
-    height: 15px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+.bar7 {
+    background-color: #FCBC51; 
+    width: 20%; 
+    animation: progressAnimationStrike8 6s; 
 }
 
-.bar9{
-    position: relative;
-    width: 85%;
-    background: linear-gradient(
-        to right,
-        black 0%,
-        black 75%,
-        rgb(187, 187, 187) 75%,
-        rgb(187, 187, 187) 100%
-    );
-    height: 15px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+@keyframes progressAnimationStrike8 {
+    from { width: 0 }
+    to   { width: 20% }
 }
+
+
 
 
 

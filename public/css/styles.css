@@ -591,7 +591,7 @@ a {
 .bar1{
     background-color: rgb(180, 82, 7); 
     width: 85%; 
-    animation: progressAnimationStrike1 6s;
+    animation: progressAnimationStrike1 10s;
 }
 
 @keyframes progressAnimationStrike1 {
@@ -607,7 +607,7 @@ a {
 .bar2 {
     background-color: #FCBC51; 
     width: 25%; 
-    animation: progressAnimationStrike2 6s;
+    animation: progressAnimationStrike2 10s;
 }
 
 @keyframes progressAnimationStrike2 {
@@ -623,7 +623,7 @@ a {
 .bar3 {
     background-color: #FCBC51; 
     width: 20%; 
-    animation: progressAnimationStrike3 6s;
+    animation: progressAnimationStrike3 10s;
 }
 
 @keyframes progressAnimationStrike3 {
@@ -639,7 +639,7 @@ a {
 .bar4{
     background-color: rgb(180, 82, 7); 
     width: 82%; 
-    animation: progressAnimationStrike4 6s;
+    animation: progressAnimationStrike4 10s;
 }
 
 @keyframes progressAnimationStrike4 {
@@ -655,7 +655,7 @@ a {
 .bar5 {
     background-color: rgb(180, 82, 7); 
     width: 75%; 
-    animation: progressAnimationStrike5 6s;
+    animation: progressAnimationStrike5 10s;
 }
 
 @keyframes progressAnimationStrike5 {
@@ -671,7 +671,7 @@ a {
 .bar6 {
     background-color: #FCBC51; 
     width: 70%; 
-    animation: progressAnimationStrike6 6s;
+    animation: progressAnimationStrike6 10s;
 }
 
 @keyframes progressAnimationStrike6 {
@@ -687,7 +687,7 @@ a {
 .bar6 {
     background-color: #FCBC51; 
     width: 25%; 
-    animation: progressAnimationStrike7 6s;
+    animation: progressAnimationStrike7 10s;
 }
 
 @keyframes progressAnimationStrike7 {
@@ -705,7 +705,7 @@ a {
 .bar7 {
     background-color: #FCBC51; 
     width: 20%; 
-    animation: progressAnimationStrike8 6s; 
+    animation: progressAnimationStrike8 10s; 
 }
 
 @keyframes progressAnimationStrike8 {

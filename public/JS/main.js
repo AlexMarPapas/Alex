@@ -21,6 +21,13 @@ function pageOff() {
 }
 
 
+$(window).on("load", function () {
+  $("#page-loader").fadeOut(850);
+  $("#page-loader").style.zIndex = "0";
+})
+
+
+
 
 $(".link-page").on("click", function (event) {
   event.preventDefault();
@@ -39,24 +46,6 @@ $(".animatedPage").on("click", function (event) {
   
 });
 
-
-
-
-$(function () {
-  
-    $(".animatedPage, .navAnim").click(function () {
-      $(".bar-parent1, .bar1, .bar-parent2, .bar2, .bar-parent3, .bar3, .bar-parent4, .bar4, .bar-parent5, .bar5, .bar-parent6, .bar6, .bar-parent7, .bar7"
-      ).css({ animation: "null" });
-  
-      setTimeout(function () {
-        $(".bar-parent1, .bar1, .bar-parent2, .bar2, .bar-parent3, .bar3, .bar-parent4, .bar4, .bar-parent5, .bar5, .bar-parent6, .bar6, .bar-parent7, .bar7"
-        ).css({ animation: "" });
-      }, 10);
-    });
-});
-
-
-
 $(".link-home").on("click", function (event) {
   event.preventDefault();
 
@@ -70,27 +59,21 @@ $(".link-home").on("click", function (event) {
 
 });
 
-// document.querySelector("#page-skills").addEventListener("click", () => {
-//   Array.from(document.querySelectorAll(".animated")).forEach((div) => {
-//     div.classList.add("activated");
-//   });
-// });
 
-// $("#page-skills").on("click", function(event) {
-//     event.preventDefault();
-//     Array.from($(".animated")).forEach(function(div) {
-//         div.classList.add("activated");
-//     });
 
-// });
+    // FUNCTION /CLICK METHOD FOR RESET THE ANIMATION IN PROGRESS BARS
+$(function () {
+  
+  $(".animatedPage, .navAnim").click(function () {
+    $(".bar-parent1, .bar1, .bar-parent2, .bar2, .bar-parent3, .bar3, .bar-parent4, .bar4, .bar-parent5, .bar5, .bar-parent6, .bar6, .bar-parent7, .bar7"
+    ).css({ animation: "null" });
 
-// $(".link-page").on("click", function(event) {
-//     event.preventDefault();
+    setTimeout(function () {
+      $(".bar-parent1, .bar1, .bar-parent2, .bar2, .bar-parent3, .bar3, .bar-parent4, .bar4, .bar-parent5, .bar5, .bar-parent6, .bar6, .bar-parent7, .bar7"
+      ).css({ animation: "" });
+    }, 10);
+  });
+});
 
-//     if (linkPage === pageSkills){
-//         $(".animated").addClass("activated")
-//       }else if (linkPage != pageSkills) {
-//         $(".animated").addClass("activated")
-//       }
 
-// });
+

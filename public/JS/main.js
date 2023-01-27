@@ -40,11 +40,7 @@ $(".link-page").on("click", function (event) {
 });
 
 
-$(".animatedPage").on("click", function (event) {
-  event.preventDefault();
-  $(".animated").addClass("activated");
-  
-});
+
 
 $(".link-home").on("click", function (event) {
   event.preventDefault();
@@ -59,6 +55,20 @@ $(".link-home").on("click", function (event) {
 
 });
 
+
+$(".mobilePageBtn").on("click", function () {
+  $(".section-page-active").removeClass("section-page-active");
+  $("#page-contact").addClass("section-page-active");
+})
+
+
+
+
+$(".animatedPage").on("click", function (event) {
+  event.preventDefault();
+  $(".animated").addClass("activated");
+  
+});
 
 
     // FUNCTION /CLICK METHOD FOR RESET THE ANIMATION IN PROGRESS BARS

@@ -8,11 +8,17 @@ const app = express();
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
+
 app.get("/", function (req, res) {
     res.sendFile(__dirname + "/index.html");
   });
 
 
-  app.listen(port, function () {
+app.get("*", function (req, res) {
+    res.redirect("https://www.gmail.com/")
+  });
+
+
+app.listen(port, function () {
     console.log("The server is running on the port " + port);
   });

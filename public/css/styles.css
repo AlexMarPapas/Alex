@@ -682,31 +682,31 @@ background: rgb(43, 13, 13);
 }
 
  .bar-parent._7 {
-   animation: progressAnimationStrike 11.5s;
+   animation: progressAnimationStrike 7s;
 }
 
 .bar-parent._8 {
-   animation: progressAnimationStrike 13s;
+   animation: progressAnimationStrike 8.5s;
 }
 
 .bar-parent._9 {
-   animation: progressAnimationStrike 14.5s;
+   animation: progressAnimationStrike 10s;
 }
  
 .bar-parent._10 {
-   animation: progressAnimationStrike 16s;
+   animation: progressAnimationStrike 7s;
 }
 
  .bar-parent._11 {
-   animation: progressAnimationStrike 17.5s;
+   animation: progressAnimationStrike 8.5s;
 }
 
  .bar-parent._12 {
-   animation: progressAnimationStrike 19s;
+   animation: progressAnimationStrike 10s;
 }
 
  .bar-parent._13 {
-   animation: progressAnimationStrike 20.5s;
+   animation: progressAnimationStrike 11.5s;
 }
 
 @keyframes progressAnimationStrike {
@@ -719,7 +719,7 @@ background: rgb(43, 13, 13);
     border-radius: 4px;
   background-color: rgb(180, 82, 7); 
     width: 85%; 
-    animation: progressAnimationStrike1 10s ;
+    animation: progressAnimationStrike1 5s ;
 }
 @keyframes progressAnimationStrike1 {
     0% { width: 0%; background-color: #FCBC51; }
@@ -730,7 +730,7 @@ background: rgb(43, 13, 13);
     border-radius: 4px;
   background-color: #FCBC51; 
     width: 25%; 
-    animation: progressAnimationStrike2 10s ;
+    animation: progressAnimationStrike2 1s ;
 }
 @keyframes progressAnimationStrike2 {
     from { width: 0 }
@@ -742,7 +742,7 @@ background: rgb(43, 13, 13);
     border-radius: 4px;
    background-color: #FCBC51; 
     width: 20%; 
-    animation: progressAnimationStrike3 10s ;
+    animation: progressAnimationStrike3 1s;
 }
 @keyframes progressAnimationStrike3 {
     from { width: 0 }
@@ -754,7 +754,7 @@ background: rgb(43, 13, 13);
     border-radius: 4px;
   background-color: rgb(180, 82, 7); 
     width: 82%; 
-    animation: progressAnimationStrike4 10s ;
+    animation: progressAnimationStrike4 7s ;
 }
 @keyframes progressAnimationStrike4 {
     0% { width: 0%; background-color: #FCBC51; }
@@ -767,7 +767,7 @@ background: rgb(43, 13, 13);
     border-radius: 4px;
   background-color: rgb(180, 82, 7); 
     width: 75%; 
-    animation: progressAnimationStrike5 10s ;
+    animation: progressAnimationStrike5 9s ;
 }
 @keyframes progressAnimationStrike5 {
     0% { width: 0%; background-color: #FCBC51; }
@@ -780,7 +780,7 @@ background: rgb(43, 13, 13);
     border-radius: 4px; 
    background-color: #FCBC51; 
     width: 25%; 
-    animation: progressAnimationStrike7 10s ;
+    animation: progressAnimationStrike7 3s ;
 }
 
 @keyframes progressAnimationStrike7 {
@@ -796,7 +796,7 @@ background: rgb(43, 13, 13);
     transition-property: width, background-color; 
   background-color: #FCBC51; 
     width: 20%; 
-    animation: progressAnimationStrike8 10s ; 
+    animation: progressAnimationStrike8 5s ; 
 }
 @keyframes progressAnimationStrike8 {
     from { width: 0 }

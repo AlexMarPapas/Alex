@@ -649,59 +649,66 @@ background: rgb(43, 13, 13);
     box-shadow: inset 0 1px 0 white, 0 0 rgba(227, 216, 216, 0.08);
 }
 
-.skills-list li:nth-child(1) > .skillbar > .bar-parent {
-   animation: progressAnimationStrike 2s;
+.bar-parent {
+    width: 85%;
+    padding: 6px;
+    background: black;
+    border-radius: 6px;
+    box-shadow: inset 0 1px 0 white, 0 0 rgba(227, 216, 216, 0.08);
 }
 
-.skills-list li:nth-child(2) > .skillbar > .bar-parent {
+.bar-parent._1 {
+   animation: progressAnimationStrike 2.5s;
+}
+
+ .bar-parent._2 {
    animation: progressAnimationStrike 4s;
 }
 
-.skills-list li:nth-child(3) > .skillbar > .bar-parent {
-   animation: progressAnimationStrike 6s;
+.bar-parent._3 {
+   animation: progressAnimationStrike 5.5s;
 }
 
-.skills-list li:nth-child(4) > .skillbar > .bar-parent {
-   animation: progressAnimationStrike 8s;
+ .bar-parent._4 {
+   animation: progressAnimationStrike 7s;
 }
 
-.skills-list li:nth-child(5) > .skillbar > .bar-parent {
-   animation: progressAnimationStrike 12s;
+ .bar-parent._5 {
+   animation: progressAnimationStrike 8.5s;
 }
 
-.skills-list li:nth-child(6) > .skillbar > .bar-parent {
-   animation: progressAnimationStrike 12s;
-}
-
-.skills-list li:nth-child(7) > .skillbar > .bar-parent {
+ .bar-parent._6 {
    animation: progressAnimationStrike 10s;
 }
 
-.skills-list li:nth-child(8) > .skillbar > .bar-parent {
-   animation: progressAnimationStrike 12s;
+ .bar-parent._7 {
+   animation: progressAnimationStrike 11.5s;
 }
 
-.skills-list li:nth-child(9) > .skillbar > .bar-parent {
-   animation: progressAnimationStrike 14s;
+.bar-parent._8 {
+   animation: progressAnimationStrike 13s;
 }
 
-.skills-list li:nth-child(10) > .skillbar > .bar-parent {
-   animation: progressAnimationStrike 8s;
+.bar-parent._9 {
+   animation: progressAnimationStrike 14.5s;
 }
-
-.skills-list li:nth-child(11) > .skillbar > .bar-parent {
-   animation: progressAnimationStrike 10s;
-}
-
-.skills-list li:nth-child(12) > .skillbar > .bar-parent {
-   animation: progressAnimationStrike 12s;
-}
-
-.skills-list li:nth-child(13) > .skillbar > .bar-parent {
-   animation: progressAnimationStrike 14s;
-}
-
  
+.bar-parent._10 {
+   animation: progressAnimationStrike 16s;
+}
+
+ .bar-parent._11 {
+   animation: progressAnimationStrike 17.5s;
+}
+
+ .bar-parent._12 {
+   animation: progressAnimationStrike 19s;
+}
+
+ .bar-parent._13 {
+   animation: progressAnimationStrike 20.5s;
+}
+
 @keyframes progressAnimationStrike {
     from { width: 0 }
     to   { width: 85% }

@@ -426,6 +426,15 @@ a {
 
 /* -----------------RESUME--------------------- */
 
+#page-resume {
+  overflow-y: scroll;
+}
+@media screen and (max-width: 992px) {
+  #page-resume {
+    overflow-y: hidden;
+  }
+}
+
 /* -----BUTTONS------ */
 .resume-button {
   padding-bottom: 11px;
@@ -535,14 +544,16 @@ a {
   padding: 5px 0 5px 0;
 }
 
-#page-resume {
-  overflow-y: scroll;
-}
-
 /* -------------------SKILLS---------------- */
 
 #page-skills {
   overflow-y: scroll;
+}
+
+@media screen and (max-width: 992px) {
+  #page-skills {
+    overflow-y: hidden;
+  }
 }
 
 .section-skills-title {
@@ -777,6 +788,12 @@ a {
 
 #page-contact {
   overflow-y: scroll;
+}
+
+@media screen and (max-width: 992px) {
+  #page-contact {
+    overflow-y: hidden;
+  }
 }
 
 .contact-title {

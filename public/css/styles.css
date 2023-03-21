@@ -641,16 +641,68 @@ background: rgb(43, 13, 13);
 }
 
 
-.bar-parent1 {
+.bar-parent {
     width: 85%;
     padding: 6px;
     background: black;
     border-radius: 6px;
     box-shadow: inset 0 1px 0 white, 0 0 rgba(227, 216, 216, 0.08);
-    animation: progressAnimationStrikeP1 2s ;
 }
 
-@keyframes progressAnimationStrikeP1 {
+.skills-list li:nth-child(1) > .skillbar > .bar-parent {
+   animation: progressAnimationStrike 2s;
+}
+
+.skills-list li:nth-child(2) > .skillbar > .bar-parent {
+   animation: progressAnimationStrike 4s;
+}
+
+.skills-list li:nth-child(3) > .skillbar > .bar-parent {
+   animation: progressAnimationStrike 6s;
+}
+
+.skills-list li:nth-child(4) > .skillbar > .bar-parent {
+   animation: progressAnimationStrike 8s;
+}
+
+.skills-list li:nth-child(5) > .skillbar > .bar-parent {
+   animation: progressAnimationStrike 12s;
+}
+
+.skills-list li:nth-child(6) > .skillbar > .bar-parent {
+   animation: progressAnimationStrike 12s;
+}
+
+.skills-list li:nth-child(7) > .skillbar > .bar-parent {
+   animation: progressAnimationStrike 10s;
+}
+
+.skills-list li:nth-child(8) > .skillbar > .bar-parent {
+   animation: progressAnimationStrike 12s;
+}
+
+.skills-list li:nth-child(9) > .skillbar > .bar-parent {
+   animation: progressAnimationStrike 14s;
+}
+
+.skills-list li:nth-child(10) > .skillbar > .bar-parent {
+   animation: progressAnimationStrike 8s;
+}
+
+.skills-list li:nth-child(11) > .skillbar > .bar-parent {
+   animation: progressAnimationStrike 10s;
+}
+
+.skills-list li:nth-child(12) > .skillbar > .bar-parent {
+   animation: progressAnimationStrike 12s;
+}
+
+.skills-list li:nth-child(13) > .skillbar > .bar-parent {
+   animation: progressAnimationStrike 14s;
+}
+
+ 
+@keyframes progressAnimationStrike {
     from { width: 0 }
     to   { width: 85% }
 }
@@ -658,172 +710,68 @@ background: rgb(43, 13, 13);
 .bar1 {
     height: 15px;  
     border-radius: 4px;
-}
-
-.bar1{
-    background-color: rgb(180, 82, 7); 
+  background-color: rgb(180, 82, 7); 
     width: 85%; 
     animation: progressAnimationStrike1 10s ;
 }
-
 @keyframes progressAnimationStrike1 {
     0% { width: 0%; background-color: #FCBC51; }
     100%  { width: 85%; background-color: rgb(180, 82, 7); }
 }
-
-
-.bar-parent2 {
-    width: 85%;
-    padding: 6px;
-    background: black;
-    border-radius: 6px;
-    box-shadow: inset 0 1px 0 white, 0 0 rgba(227, 216, 216, 0.08);
-    animation: progressAnimationStrikeP2 4s;
-}
-
-@keyframes progressAnimationStrikeP2 {
-    from { width: 0 }
-    to   { width: 85% }
-}
-
-
-
 .bar2{
     height: 15px;  
     border-radius: 4px;
-}
-
-.bar2 {
-    background-color: #FCBC51; 
+  background-color: #FCBC51; 
     width: 25%; 
     animation: progressAnimationStrike2 10s ;
 }
-
 @keyframes progressAnimationStrike2 {
     from { width: 0 }
     to   { width: 25% }
 }
 
-
-
-.bar-parent3 {
-    width: 85%;
-    padding: 6px;
-    background: black;
-    border-radius: 6px;
-    box-shadow: inset 0 1px 0 white, 0 0 rgba(227, 216, 216, 0.08);
-    animation: progressAnimationStrikeP3 6s;
-}
-
-@keyframes progressAnimationStrikeP3 {
-    from { width: 0 }
-    to   { width: 85% }
-}
-
-
 .bar3 {
     height: 15px;
     border-radius: 4px;
-}
-
-.bar3 {
-    background-color: #FCBC51; 
+   background-color: #FCBC51; 
     width: 20%; 
     animation: progressAnimationStrike3 10s ;
 }
-
 @keyframes progressAnimationStrike3 {
     from { width: 0 }
     to   { width: 20% }
 }
 
-
-.bar-parent4 {
-    width: 85%;
-    padding: 6px;
-    background: black;
-    border-radius: 6px;
-    box-shadow: inset 0 1px 0 white, 0 0 rgba(227, 216, 216, 0.08);
-    animation: progressAnimationStrikeP4 8s;
-}
-
-@keyframes progressAnimationStrikeP4 {
-    from { width: 0 }
-    to   { width: 85% }
-}
-
-
 .bar4 {
     height: 15px;
     border-radius: 4px;
-}
-
-.bar4{
-    background-color: rgb(180, 82, 7); 
+  background-color: rgb(180, 82, 7); 
     width: 82%; 
     animation: progressAnimationStrike4 10s ;
 }
-
 @keyframes progressAnimationStrike4 {
     0% { width: 0%; background-color: #FCBC51; }
     100%  { width: 82%; background-color: rgb(180, 82, 7); }
 }
 
 
-.bar-parent5 {
-    width: 85%;
-    padding: 6px;
-    background: black;
-    border-radius: 6px;
-    box-shadow: inset 0 1px 0 white, 0 0 rgba(227, 216, 216, 0.08);
-    animation: progressAnimationStrikeP5 10s;
-}
-
-@keyframes progressAnimationStrikeP5 {
-    from { width: 0 }
-    to   { width: 85% }
-}
-
-
 .bar5 {
     height: 15px;
     border-radius: 4px;
-}
-
-.bar5 {
-    background-color: rgb(180, 82, 7); 
+  background-color: rgb(180, 82, 7); 
     width: 75%; 
     animation: progressAnimationStrike5 10s ;
 }
-
 @keyframes progressAnimationStrike5 {
     0% { width: 0%; background-color: #FCBC51; }
     100%  { width: 75%; background-color: rgb(180, 82, 7); }
 }
 
 
-.bar-parent6 {
-    width: 85%;
-    padding: 6px;
-    background: black;
-    border-radius: 6px;
-    box-shadow: inset 0 1px 0 white, 0 0 rgba(227, 216, 216, 0.08);
-    animation: progressAnimationStrikeP6 12s;
-}
-
-@keyframes progressAnimationStrikeP6 {
-    from { width: 0 }
-    to   { width: 85% }
-}
-
-
 .bar6 {
     height: 15px;
     border-radius: 4px; 
-}
-
-.bar6 {
-    background-color: #FCBC51; 
+   background-color: #FCBC51; 
     width: 25%; 
     animation: progressAnimationStrike7 10s ;
 }
@@ -834,51 +782,20 @@ background: rgb(43, 13, 13);
 }
 
 
-.bar-parent7 {
-    width: 85%;
-    padding: 6px;
-    background: black;
-    border-radius: 6px;
-    box-shadow: inset 0 1px 0 white, 0 0 rgba(227, 216, 216, 0.08);
-    animation: progressAnimationStrikeP7 14s;
-}
-
-@keyframes progressAnimationStrikeP7 {
-    from { width: 0 }
-    to   { width: 85% }
-}
-
 .bar7 {
     height: 15px;
     border-radius: 4px;
     transition: 0.6 linear;
     transition-property: width, background-color; 
-}
-
-.bar7 {
-    background-color: #FCBC51; 
+  background-color: #FCBC51; 
     width: 20%; 
     animation: progressAnimationStrike8 10s ; 
 }
-
 @keyframes progressAnimationStrike8 {
     from { width: 0 }
     to   { width: 20% }
 }
 
-.animated{
-    animation-play-state: paused;
-}
-.activated{
-    animation-play-state: running;
-}
-
-
-@media(max-width: 992px) {
-    .animated{
-        animation-play-state: running;
- }
-}
 
 
                                        /* ---------------------CONTACT--------------------------- */

@@ -23,7 +23,7 @@ function pageOff() {
 
 $(window).on("load", function () {
   $("#page-loader").fadeOut(850);
-  $("#page-loader").style.zIndex = "0";
+  
 })
 
 

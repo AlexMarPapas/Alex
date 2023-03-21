@@ -63,23 +63,15 @@ $(".mobilePageBtn").on("click", function () {
 
 
 
-
-$(".animatedPage").on("click", function (event) {
-  event.preventDefault();
-  $(".animated").addClass("activated");
-  
-});
-
-
     // FUNCTION /CLICK METHOD FOR RESET THE ANIMATION IN PROGRESS BARS
 $(function () {
   
   $(".animatedPage, .navAnim").click(function () {
-    $(".bar-parent1, .bar1, .bar-parent2, .bar2, .bar-parent3, .bar3, .bar-parent4, .bar4, .bar-parent5, .bar5, .bar-parent6, .bar6, .bar-parent7, .bar7"
+    $(".bar-parent, .bar1, .bar2, .bar3, .bar4, .bar5, .bar6, .bar7"
     ).css({ animation: "null" });
 
     setTimeout(function () {
-      $(".bar-parent1, .bar1, .bar-parent2, .bar2, .bar-parent3, .bar3, .bar-parent4, .bar4, .bar-parent5, .bar5, .bar-parent6, .bar6, .bar-parent7, .bar7"
+      $(".bar-parent, .bar1, .bar2, .bar3, .bar4, .bar5, .bar6, .bar7"
       ).css({ animation: "" });
     }, 10);
   });
